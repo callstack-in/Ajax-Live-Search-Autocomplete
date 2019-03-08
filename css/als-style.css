@@ -1,0 +1,101 @@
+#als-data{border:1px solid gray; width: max-content; width: -moz-max-content; min-width: 190px; z-index: 99999; 
+          background: #fff;/*box-shadow: 10px 10px 15px #aaaaaa;*/}
+#als-table{overflow-x: auto; margin: 0px 1px;}
+#als-data table{border-collapse:collapse; width: max-content; width: -moz-max-content; min-width: 190px;}
+#als-data table tr{border-bottom: 1px solid gray; cursor: pointer;}
+.als-row:nth-child(odd){background: #f2f2f2}
+#als-data table tr:hover{background-color: #d5dae2}
+#als-data table tr th{padding: 5px 14px;}
+#als-data table tr td{padding: 5px 14px; overflow-wrap: break-word !important; max-width: 300px;}
+.als-page{float: left; margin: 0px 20px;font-size: 22px;}
+.als-paging{ padding: 10px 28px; text-align: center;}
+.als-align-center-paginng{display: inline-block; line-height: 24px;}
+.no-record{color: #b75249; white-space: nowrap;}
+.als-h-f{display:none;}
+.input-loader{
+    background-image: url('./images/loading.gif') !important; background-repeat: no-repeat !important; background-size: 40px 40px;
+    background-position:right !important;
+}
+#als-close-btn{   
+    background-image: url(./images/close.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: right;
+    height: 25px;
+    background-size: 25px;
+    top: -8px;
+    width: 25px;
+    cursor: pointer;
+    z-index: 9999999;
+    right: -8px;
+    display: none;
+}
+.als-left-arrow-dark{
+    background-image: url(./images/als-left-arrow.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    float: left;
+    background-size: 25px;
+}
+
+.als-left-arrow-light{
+    background-image: url(./images/als-left-arrow.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    float: left;
+    background-size: 25px;
+    -khtml-opacity:.40; 
+    -moz-opacity:.40; 
+    -ms-filter:"alpha(opacity=40)";
+    filter:alpha(opacity=40);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.4);
+    opacity:.40; 
+
+}
+
+.als-right-arrow-dark{
+    background-image: url(./images/als-right-arrow.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    float:left;
+    background-size: 25px;
+}
+.als-right-arrow-light{
+    background-image: url(./images/als-right-arrow.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    float:left;
+    background-size: 25px;
+    -khtml-opacity:.40; 
+    -moz-opacity:.40; 
+    -ms-filter:"alpha(opacity=40)";
+    filter:alpha(opacity=40);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.4);
+    opacity:.40; 
+}
+
+
+
+
+/*
+*
+*
+*
+*/
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 320px) {
+    /*#als-data{width: 80vw;}*/
+}
